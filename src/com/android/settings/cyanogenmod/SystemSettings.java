@@ -51,6 +51,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
     private PreferenceScreen mPhoneDrawer;
     private PreferenceScreen mTabletDrawer;
     private ListPreference mNavButtonsHeight;
+    private PreferenceScreen mNavigationBar;
 
     private final Configuration mCurConfig = new Configuration();
 
@@ -71,10 +72,14 @@ public class SystemSettings extends SettingsPreferenceFragment implements
                  Settings.System.NAV_BUTTONS_HEIGHT, 48);
         mNavButtonsHeight.setValue(String.valueOf(statusNavButtonsHeight));
         mNavButtonsHeight.setSummary(mNavButtonsHeight.getEntry());
+        mNavigationBar = (PreferenceScreen) findPreference(KEY_NAVIGATION_BAR);
 
         if (Utils.isTablet(getActivity())) {
             if (mPhoneDrawer != null) {
                 getPreferenceScreen().removePreference(mPhoneDrawer);
+            }
+            if (mNavigationBar != null) {
+                getPreferenceScreen().removePreference(mNavigationBar);
             }
         } else {
             if (mTabletDrawer != null) {
@@ -85,12 +90,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         IWindowManager windowManager = IWindowManager.Stub.asInterface(
                 ServiceManager.getService(Context.WINDOW_SERVICE));
         try {
-            if (!windowManager.hasNavigationBar()) {
-                Preference naviBar = findPreference(KEY_NAVIGATION_BAR);
-                if (naviBar != null) {
-                    getPreferenceScreen().removePreference(naviBar);
-                }
-            } else {
+            if (windowManager.hasNavigationBar()) {
                 Preference hardKeys = findPreference(KEY_HARDWARE_KEYS);
                 if (hardKeys != null) {
                     getPreferenceScreen().removePreference(hardKeys);
