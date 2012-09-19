@@ -1418,5 +1418,37 @@
         <item>5</item>
     </string-array>
 
+    <!--- Volume key cursor control -->
+    <string-array name="volume_key_cursor_control_entries" translatable="false">
+        <item>@string/volume_key_cursor_control_off</item>
+        <item>@string/volume_key_cursor_control_on</item>
+        <item>@string/volume_key_cursor_control_on_reverse</item>
+    </string-array>
+
+    <string-array name="volume_key_cursor_control_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!--- Nav buttons height -->
+    <string-array name="nav_buttons_height_entries">
+        <item>@string/navigation_bar_height_48</item>
+        <item>@string/navigation_bar_height_44</item>
+        <item>@string/navigation_bar_height_40</item>
+        <item>@string/navigation_bar_height_36</item>
+        <item>@string/navigation_bar_height_30</item>
+        <item>@string/navigation_bar_height_24</item>
+    </string-array>
+
+    <string-array name="nav_buttons_height_values" translatable="false">
+        <item>48</item>
+        <item>44</item>
+        <item>40</item>
+        <item>36</item>
+        <item>30</item>
+        <item>24</item>
+    </string-array>
+
     <!-- **** CYANOGENMOD EDITS END **** -->
 </resources>
