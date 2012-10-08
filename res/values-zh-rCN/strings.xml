@@ -1947,7 +1947,7 @@
     <string name="title_toggle_autorotate">切换屏幕旋转</string>
     <string name="title_toggle_airplane">切换飞行模式</string>
     <string name="title_toggle_flashlight">切换 LED 手电筒</string>
-    <string name="title_toggle_sleep">睡眠模式</string>
+    <string name="title_toggle_sleep">一键锁屏</string>
     <string name="title_toggle_media_play_pause">媒体: 切换播放/暂停</string>
     <string name="title_toggle_media_previous">媒体: 跳到前一首</string>
     <string name="title_toggle_media_next">媒体: 跳到下一首</string>
@@ -2426,7 +2426,12 @@
     <string name="pref_volume_wake_title">音量键唤醒</string>
     <string name="pref_volume_wake_summary">使用音量键唤醒设备</string>
 
-    <string name="ok">OK</string>
+    <!-- High End Gfx Effects -->
+    <string name="display_category_advanced_title">高级</string>
+    <string name="high_end_gfx_title">高级画面特效</string>
+    <string name="high_end_gfx_summary">启用在低端设备上禁用的画面特效</string>
+
+    <string name="ok">确定</string>
 
     <!-- Development settings: title for the field that shows the "App ID" development identifier
          for this device. [CHAR LIMIT=40] -->
