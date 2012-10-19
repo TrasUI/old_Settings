@@ -2300,6 +2300,4 @@
     <string name="volume_key_cursor_control_off">Wyłączone</string>
     <string name="volume_key_cursor_control_on">Głośniej/Ciszej przesuwa kursor w lewo/prawo</string>
     <string name="volume_key_cursor_control_on_reverse">Głośniej/Ciszej przesuwa kursor w prawo/lewo</string>
-
->>>>>>> 432ee7d... Settings (Status Bar): Dedup strings
 </resources>

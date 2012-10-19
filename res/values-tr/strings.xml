@@ -2363,5 +2363,4 @@
     <string name="cmupdate_settings_title">CyanogenMod güncellemeleri</string>
     <string name="cmupdate_settings_summary">Güncellemeleri kontrol et ve kur</string>
     <!-- ***************** CYANOGENMOD EDITS END *************************-->
->>>>>>> 432ee7d... Settings (Status Bar): Dedup strings
 </resources>

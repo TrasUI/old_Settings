@@ -2305,5 +2305,4 @@
     <string name="allow_mock_sms">Povolit falešné SMS</string>
     <string name="cmupdate_settings_title">Aktualizace CyanogenModu</string>
     <string name="cmupdate_settings_summary">Zkontrolujte, zda jsou k dispozici aktualizace</string>
->>>>>>> 432ee7d... Settings (Status Bar): Dedup strings
 </resources>
