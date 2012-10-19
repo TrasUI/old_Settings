@@ -367,6 +367,11 @@
         <item>Klein</item>
         <item>Geen (standaard)</item>
     </string-array>
+    <string-array name="entries_status_bar_battery">
+        <item>Icoon (standaard)</item>
+        <item>Percentage</item>
+        <item>Verborgen</item>
+    </string-array>
     <string-array name="profile_entries">
         <item>Aan</item>
         <item>Uit</item>
